@@ -18,9 +18,9 @@ FortiCrypt’i bilgisayarınıza kurmak için aşağıdaki adımları izleyin. A
 
 ### Tek Tıkla Kurulum (Önerilen)
 
-Uygulamayı doğrudan indirmek ve kurmak için aşağıdaki linke tıklayın:
+Uygulamayı doğrudan indirmek ve kurmak için aşağıdaki linke tıklayın:.
+[**FortiCrypt İndir (Windows)**](https://github.com/devranmete7/Vaultify/releases/download/v1.0.0/KasaApp.exee)
 
-[**FortiCrypt İndir (Windows)**]([https://github.com/KULLANICI_ADINIZ/forticrypt/releases/download/v1.0.0/KasaApp.exe](https://github.com/devranmete7/Vaultify/releases/download/v1.0.0/KasaApp.exe))
 
 1. İndirilen dosyaya çift tıklayın.
 2. Uygulamayı başlatabilirsiniz.
