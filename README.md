@@ -1,42 +1,26 @@
-# FortiCrypt
+# Vaultify
 
-![Uygulama Logosu veya Ekran Görüntüsü](https://via.placeholder.com/150) <!-- Uygulamanızın logosunu veya bir ekran görüntüsünü ekleyin -->
-
-FortiCrypt, dosyalarınızı güvenli bir şekilde şifrelemenize ve klasörlerinizi yönetmenize olanak tanıyan kullanıcı dostu bir uygulamadır. Hassas verilerinizi koruyabilir, kolayca klasör oluşturabilir ve şifreli dosyalara erişebilirsiniz.
+FortiCrypt, dosyalarınızı güvenli bir şekilde şifrelemenize ve klasörlerinizi yönetmenize olanak tanıyan yüksek güvenlikli bir uygulamadır. Verilerinizi korumak için güçlü şifreleme kullanır ve yalnızca yetkili kullanıcılar erişebilir.
 
 ## Özellikler
-
-- **Güvenli Dosya Şifreleme**: Dosyalarınızı güçlü şifreleme algoritmalarıyla koruyun.
-- **Klasör Yönetimi**: Kolayca klasör oluşturun, silin veya içeriğe erişin.
-- **Kullanıcı Dostu Arayüz**: PySimpleGUI ile geliştirilen sezgisel bir arayüz.
-- **Şifre Koruması**: Klasörlerinize özel şifreler ekleyerek güvenliği artırın.
-- **Çoklu Platform Desteği**: Windows (diğer platformlar yakında eklenecek).
+- **Güvenli Dosya Şifreleme**: AES-256 ile dosyalarınızı koruyun.
+- **Klasör Yönetimi**: Klasör oluşturun, silin ve yönetin.
+- **Şifre Koruması**: Klasörlerinize ek parola ekleyin.
+- **Kullanıcı Dostu Arayüz**: Kolay ve sezgisel kullanım.
 
 ## Kurulum
+FortiCrypt’i bilgisayarınıza indirmek için aşağıdaki linki kullanın:
 
-FortiCrypt’i bilgisayarınıza kurmak için aşağıdaki adımları izleyin. Alternatif olarak, tek tıkla kurulum için aşağıdaki indirme linkini kullanabilirsiniz.
+[**Vaultify İndir (Windows)**](https://github.com/KULLANICI_ADIN/forticrypt/releases/download/v1.0.0/FortiCrypt.exe)
 
-### Tek Tıkla Kurulum (Önerilen)
+### Kurulum Adımları
+1. Yukarıdaki linke tıklayın ve `FortiCrypt.exe`’yi indirin.
+2. İndirilen dosyaya çift tıklayın ve uygulamayı başlatın.
+3. Giriş ekranında kullanıcı adı ve şifreyle oturum açın.
 
-Uygulamayı doğrudan indirmek ve kurmak için aşağıdaki linke tıklayın:.
-[**FortiCrypt İndir (Windows)**](https://github.com/devranmete7/Vaultify/releases/download/v1.0.0/KasaApp.exe)
-
-
-1. İndirilen dosyaya çift tıklayın.
-2. Uygulamayı başlatabilirsiniz.
-
-### Kaynak Koddan Kurulum (Geliştiriciler İçin)
-
-Eğer uygulamayı kaynak koddan çalıştırmak istiyorsanız:
-
-#### Gereksinimler
-- **Python 3.8 veya üstü**: [Python İndir](https://www.python.org/downloads/)
-- **Gerekli Kütüphaneler**:
-  - PySimpleGUI-4-foss
-  - cryptography
-
-#### Kurulum Adımları
-1. Repoyu klonlayın:
-   ```bash
-   git clone https://github.com/KULLANICI_ADINIZ/forticrypt.git
-   cd forticrypt
+### Dosya Bütünlüğü Doğrulama
+İndirdiğiniz dosyanın orijinal olduğunu doğrulamak için SHA-256 hash’ini kontrol edin:
+- **SHA-256**: `[Adım 1’de hesapladığın hash,1a6315625e04be0f46ce7f9745d5e77190a2e4678b6f694463361ea1897244df]`
+- Windows’ta hash’i kontrol etmek için:
+  ```bash
+  certutil -hashfile FortiCrypt.exe SHA256
