@@ -11,7 +11,7 @@ FortiCrypt, dosyalarınızı güvenli bir şekilde şifrelemenize ve klasörleri
 ## Kurulum
 FortiCrypt’i bilgisayarınıza indirmek için aşağıdaki linki kullanın:
 
-[**Vaultify İndir (Windows)**](https://github.com/KULLANICI_ADIN/forticrypt/releases/download/v1.0.0/FortiCrypt.exe)
+[**Vaultify İndir (Windows)**]([https://github.com/KULLANICI_ADIN/forticrypt/releases/download/v1.0.0/FortiCrypt.exe](https://github.com/devranmete7/Vaultify/releases/download/v1.0.0/Vaultify.exe))
 
 ### Kurulum Adımları
 1. Yukarıdaki linke tıklayın ve `FortiCrypt.exe`’yi indirin.
